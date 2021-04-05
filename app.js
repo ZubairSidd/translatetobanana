@@ -8,7 +8,7 @@ function getTranslationURL(text){
     return text = serverURL + "text=" + text
 }
 
-function errorHandler(){
+function errorHandler(error){
     console.log("error occured", error)
     alert("something wrong with server! try again after some time")
 }
